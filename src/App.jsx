@@ -31,8 +31,8 @@ const App = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="absolute inset-0 backdrop-blur bg-[rgba(0,0,0,0.6)] z-0"></div>
-        <div className="flex max-w-6xl w-full h-[50vh] gap-2 items-center justify-center z-10">
+        <div className="absolute inset-0 backdrop-blur bg-[rgba(0,0,0,0.8)] z-0"></div>
+        <div className="flex max-w-6xl w-full h-[50vh] gap-3 items-center justify-center z-10">
           {SlideImage.map((item, index) => (
             <div
               key={index}
